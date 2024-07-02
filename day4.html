@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Day 4 HTML</title>
+    </head>
+    <body> 
+        <form>
+            <fieldset>
+                <legend>Personal Details</legend>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter Name"><br>
+                Password:<input type="password" id="password" name="password"><br>
+            </fieldset>
+            HTML:<input type="radio" id="html" name="radio">
+            CSS:<input type="radio" id="css" name="radio">
+            <br>
+            <select id="select" name="select" size="4" multiple>
+                <option value="sun">Sunday</option>
+                <option value="mon">Monday</option>
+                <option value="tue">Tuesday</option>
+                <option value="wed" selected>Wednesday</option>
+                <option value="thu">Thursday</option>
+                <option value="fri">Friday</option>
+                <option value="sat">Saturday</option>
+            </select><br>
+            <input list="data">
+            <datalist id="data">
+                <option value="sun">Sunday</option>
+                <option value="mon">Monday</option>
+                <option value="tue">Tuesday</option>
+                <option value="wed" selected>Wednesday</option>
+                <option value="thu">Thursday</option>
+                <option value="fri">Friday</option>
+                <option value="sat">Saturday</option>
+            </datalist>
+            <textarea rows="10" cols="20">Hello</textarea>
+            <input type="submit">
+        </form>
+    </body>
+</html>
